@@ -1,3 +1,15 @@
-body{
-    background-color: black;
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+
+.flex-row{
+    display: flex;
+    flex-flow:row nowrap;
+}
+.flec-column {
+    display: flex;
+    flex-flow: column nowrap;
 }
